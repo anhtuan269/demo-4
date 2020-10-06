@@ -7,6 +7,7 @@ head
   link(rel='stylesheet' href='./Header/style.css' type='text/css')
   link(rel='stylesheet' href='./Slide/style.css' type='text/css')
   link(rel='stylesheet' href='./Shipping/style.css' type='text/css')
+  link(rel='stylesheet' href='./Trending/style.css' type='text/css')
   link(rel='stylesheet' href='./Footer/style.css' type='text/css')
   link(rel='stylesheet' href='./owlcarousel/owl.carousel.min.js')
   link(rel='stylesheet' href='./owlcarousel/assets/owl.theme.default.min.css')
@@ -23,6 +24,7 @@ body
   include ./Header/index.pug
   include ./Slide/index.pug
   include ./Shipping/index.pug
+  include ./Trending/index.pug
     
 script.
   $(document).ready(function() {
@@ -35,6 +37,23 @@ script.
       },
       600: {
       items: 1
+      },
+      0: {
+      items: 1
+      }
+      }
+      })
+      });
+   $(document).ready(function() {
+      $('.product').owlCarousel({
+      nav: false,
+      loop: true,
+      responsive: {
+      1200: {
+      items: 5
+      },
+      768: {
+      items: 3
       },
       0: {
       items: 1

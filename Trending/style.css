@@ -1,0 +1,118 @@
+@media screen and (min-width: 320px){
+    .trending-conatainer {
+        padding: 0 16px;
+    }
+    .trending .container .title  {
+        padding: 0 16px;
+        margin-bottom: 20px;
+    }
+    .trending .container .title h3 {
+        text-align: center;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 22px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .trending .container .title .right {
+        display: flex;
+        margin-top: 15px;
+        width: 100%;
+        justify-content: space-around;
+        font-size: 13px;
+        line-height: 22px;
+        font-weight: 500;
+    
+    }
+    .trending .container .title .right h3 {
+        line-height: 22px;
+        padding: 0 15px;
+        font-size: 13px;
+        line-height: 22px;
+        font-weight: 500;
+    }
+    .trending .container .title .right h4 {
+        line-height: 22px;
+        padding: 0 15px;
+    }
+    .trending .container .title .right h5 {
+        line-height: 22px;
+        padding: 0 15px;
+    }
+    .trending .container .product .product1  {
+        padding: 0 16px;
+    }
+    .trending .container .product  .owl-dots{
+        display: none;
+    }
+    .trending .container .product .product1 figure {
+        position: relative;
+    }
+    .trending .container .product .product1 figure .img-content h3 {
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        padding: 0 5px;
+        background: #FC8A35;
+        line-height: 20px;
+        color: #FFF;
+        border-radius: 5px;
+    }
+    .trending .container .product .product1 figure .img-content h4 {
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        padding: 0 5px;
+        background: #FC8A35;
+        line-height: 20px;
+        color: #FFF;
+        border-radius: 5px;
+    }
+    .trending .container .product .product1 .content {
+        text-align: center;
+        margin-top: 15px;
+    }
+    .trending .container .product .product1 .content h3 a{
+        display: block;
+        font-size: 15px;
+        margin-bottom: 14px;
+        line-height: 14px;
+    }
+    .trending .container .product .product1 .content p a{
+        display: block;
+        font-size: 12px;
+        line-height: 12px;
+        margin-bottom: 14px;
+    }
+    .trending .container .product .product1 .content h4 {
+        color: #FC8A35;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .trending .container .product .product1 .content h4 span{
+        font-size: 15px;
+        color: #222222;
+        text-decoration: line-through;
+        margin-left: 10px;
+        font-weight:400;
+    }
+}
+@media screen and (min-width: 1200px){
+    .trending .container {
+        max-width: 1130px;
+        margin: auto;
+    }
+    .trending .container .title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .trending .container .title .right {
+        justify-content: flex-end;
+        width: 32%;
+        align-items: center;
+        margin-top: 0;
+    }
+}
