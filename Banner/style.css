@@ -1,0 +1,28 @@
+@media screen and (min-width: 320px){
+    .banner {
+        padding: 0 16px;
+        margin-bottom: 30px;
+    }
+    .banner .banner-container .left{ 
+        margin-bottom: 30px;
+    }
+}
+@media screen and (min-width: 768px){
+    .banner .banner-container {
+        display: flex;
+    }
+    .banner .banner-container .left {
+        padding: 0 12px;
+    }
+    .banner .banner-container .right {
+        padding: 0 12px;
+    }
+}
+@media screen and (min-width: 1200px){
+    .banner {
+        max-width: 1130px;
+        margin: auto;
+        margin-bottom: 30px;
+        padding: 0;
+    }
+}

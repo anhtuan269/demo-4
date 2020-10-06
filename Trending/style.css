@@ -1,6 +1,7 @@
 @media screen and (min-width: 320px){
-    .trending-conatainer {
+    .trending .container {
         padding: 0 16px;
+        margin-bottom: 54px;
     }
     .trending .container .title  {
         padding: 0 16px;
@@ -38,9 +39,6 @@
     .trending .container .title .right h5 {
         line-height: 22px;
         padding: 0 15px;
-    }
-    .trending .container .product .product1  {
-        padding: 0 16px;
     }
     .trending .container .product  .owl-dots{
         display: none;
@@ -98,21 +96,29 @@
         margin-left: 10px;
         font-weight:400;
     }
+    .trending .container .product .product1  {
+        padding-right: 16px;
+    }
 }
 @media screen and (min-width: 1200px){
     .trending .container {
         max-width: 1130px;
         margin: auto;
+        margin-bottom: 54px;
+        padding-left: 16px;
+        padding-right:0;
     }
     .trending .container .title {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding-right: 16px;
     }
     .trending .container .title .right {
         justify-content: flex-end;
         width: 32%;
         align-items: center;
         margin-top: 0;
+        padding-left: 16px;
     }
 }
