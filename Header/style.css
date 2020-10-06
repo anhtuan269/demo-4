@@ -262,18 +262,23 @@
         margin: auto;
         display: flex;
         justify-content: space-between;
+        height: 51px;
     }
     .header .bot-content .left-menu .input-group{
         display: none;
     }
     .header .bot-content .left-menu .menu-bar {
-        width: 46%;
+        width: 240px;
         border-radius: 6px 6px 0 0;
+        font-size: 16px;
+        height:51px;
     }
     .header .bot-content .left-menu .main-menu {
         display: flex;
         align-items: center;
         width: 490px;
+        padding: 0 16px;
+
     }
     .header .bot-content .left-menu .main-menu ul {
         display: flex;
@@ -281,6 +286,7 @@
     .header .bot-content .left-menu .main-menu ul li a {
         display:inline-block;
         padding-left: 20px;
+        font-size: 15px;
     }
     .header .bot-content .left-menu .main-menu ul li a i {
         margin-left: 8px;
@@ -298,6 +304,9 @@
     }
     .header .bot-content .right-cont .content h5 {
         font-size: 13px;
+    }
+    .header .bot-content .left-menu .menu-bar a i {
+        margin-left: 45px;
     }
 
 }

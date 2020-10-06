@@ -5,6 +5,7 @@ head
   meta(name='viewport' content='width=device-width, initial-scale=1.0')
   link(rel='stylesheet' href='./style.css' type='text/css')
   link(rel='stylesheet' href='./Header/style.css' type='text/css')
+  link(rel='stylesheet' href='./Slide/style.css' type='text/css')
   link(rel='stylesheet' href='./Footer/style.css' type='text/css')
   link(rel='stylesheet' href='./owlcarousel/owl.carousel.min.js')
   link(rel='stylesheet' href='./owlcarousel/assets/owl.theme.default.min.css')
@@ -19,5 +20,23 @@ head
   title Demo 4
 body
   include ./Header/index.pug
+  include ./Slide/index.pug
     
-    
+script.
+  $(document).ready(function() {
+      $('.slide1').owlCarousel({
+      nav: false,
+      loop: true,
+      responsive: {
+      1000: {
+      items: 1
+      },
+      600: {
+      items: 1
+      },
+      0: {
+      items: 1
+      }
+      }
+      })
+      });
