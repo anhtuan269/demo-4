@@ -2,6 +2,11 @@
     .slide .slider {
         padding: 0 16px;
     }
+    .slide .slider .nav-left {
+        visibility: hidden;
+        opacity:0;
+        display: none;
+    }
     .slide .slider .slide1 .slide-content figure {
         position: relative;
     }
@@ -98,6 +103,9 @@
     }
     .slide .slider .nav-left {
         width: 240px;
+        display: block;
+        visibility: visible;
+        opacity: 1;
     }
     .slide .slider .slide1 {
         width: 75%;

@@ -1,0 +1,58 @@
+@media screen and (min-width: 320px){
+    .shipping-area {
+        padding: 58px 16px 20px;
+    }
+    .shipping-area .container .ship {
+        display: flex;
+        margin-bottom: 25px;;
+    }
+    .shipping-area .container .ship figure {
+        max-width: 35px;
+        margin-right:8px;
+    }
+    .shipping-area .container .ship .content {
+        width:245px;
+    }
+    .shipping-area .container .ship .content h3 {
+        font-size: 16px;
+        line-height: 16px;
+        font-weight: 400;
+        margin-bottom: 8px;
+    }
+    .shipping-area .container .ship .content p {
+        font-size: 13px;
+        line-height: 19px;
+    }
+}
+@media screen and (min-width:480px){
+    .shipping-area .container .ship .content {
+        width:332px;
+    }
+}
+@media screen and (min-width:768px){
+    .shipping-area .container .ship .content {
+        width:295px;
+    }
+    .shipping-area .container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .shipping-area .container .ship figure {
+        max-width: 40px;
+    }
+}
+@media screen and (min-width:1200px){
+    .shipping-area .container .ship .content {
+        width:205px;
+    }
+    .shipping-area .container {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        max-width: 1130px;
+        margin: auto;
+        padding: 0 12px;
+    }
+    .shipping-area {
+        padding: 68px 16px 60px;
+    }
+}
