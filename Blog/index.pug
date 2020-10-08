@@ -1,0 +1,102 @@
+.blog
+    .blog-content
+        .title
+            p Our recent articles about Organic
+            h2 Our Blog Posts
+        .blog-slide.owl-carousel.owl-theme
+            .blog-slider
+                article
+                    figure
+                        a(href="#")
+                            img(src="../image/blog3.jpg", alt="")
+                    .content
+                        p 
+                            span.day 18/01/2019 |
+                            span.ecom 
+                               a(href="#") eCommerce
+                        h3
+                            a(href="#") Maxime Laborum Voluptas Minus, Est, Unde Equare Esse Tenetur
+                        a.more(href="#")
+                            | SHOW MORE
+                            i.fas.fa-play
+            .blog-slider
+                article
+                    figure
+                        a(href="#")
+                            img(src="../image/blog1.jpg", alt="")
+                    .content
+                        p 
+                            span.day 18/01/2019 |
+                            span.ecom 
+                               a(href="#") eCommerce
+                        h3
+                            a(href="#") Maxime Laborum Voluptas Minus, Est, Unde Equare Esse Tenetur
+                        a.more(href="#")
+                            | SHOW MORE
+                            i.fas.fa-play
+            .blog-slider
+                article
+                    figure
+                        a(href="#")
+                            img(src="../image/blog2.jpg", alt="")
+                    .content
+                        p 
+                            span.day 18/01/2019 |
+                            span.ecom 
+                               a(href="#") eCommerce
+                        h3
+                            a(href="#") Maxime Laborum Voluptas Minus, Est, Unde Equare Esse Tenetur
+                        a.more(href="#")
+                            | SHOW MORE
+                            i.fas.fa-play
+            .blog-slider
+                article
+                    figure
+                        a(href="#")
+                            img(src="../image/blog3.jpg", alt="")
+                    .content
+                        p 
+                            span.day 18/01/2019 |
+                            span.ecom 
+                               a(href="#") eCommerce
+                        h3
+                            a(href="#") Maxime Laborum Voluptas Minus, Est, Unde Equare Esse Tenetur
+                        a.more(href="#")
+                            | SHOW MORE
+                            i.fas.fa-play
+            .blog-content
+                article
+                    figure
+                        a(href="#")
+                            img(src="../image/blog2.jpg", alt="")
+                    .content
+                        p 
+                            span.day 18/01/ 2019 |
+                            span.ecom 
+                               a(href="#") eCommerce
+                        h3
+                            a(href="#") Maxime Laborum Voluptas Minus, Est, Unde Equare Esse Tenetur
+                        a.more(href="#")
+                            | SHOWMORE
+                            i.fas.fa-play
+.black
+    .friday
+        img(src="../image/banner13.jpg", alt="")
+script.
+     $(document).ready(function() {
+      $('.blog-slide').owlCarousel({
+      nav: false,
+      loop: true,
+      responsive: {
+      1200: {
+      items: 3
+      },
+      600: {
+      items: 2
+      },
+      0: {
+      items: 1
+      }
+      }
+      })
+      });

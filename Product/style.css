@@ -429,7 +429,7 @@
         width: 215px;
     }
     .total-product .new-product .new {
-        bottom:6%;
+        bottom:5%;
     }
     .product .product-container .banner-thumnail img{ 
         height:545px;
@@ -437,5 +437,8 @@
     .total-product {
         max-width: 1130px;
         margin: auto;
+    }
+    .total-container {
+        margin-bottom: 80px;
     }
 }
