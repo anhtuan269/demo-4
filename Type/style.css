@@ -1,0 +1,96 @@
+@media screen and (min-width: 320px){
+    .type .type-container  {
+        padding: 0 16px;
+    }
+    .type .type-container .fruits  {
+        background: #FFF;
+        padding: 25px 15px;
+    }
+    .type .type-container .fruits  h2 {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 26px;
+        margin-bottom: 23px;
+    }
+   .type .type-container .fruits .fruits-slide .fruits-product article figure {
+        position: relative;
+    }
+   .type .type-container .fruits .fruits-slide .fruits-product article figure .primery {
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        visibility: hidden;
+        opacity:0;
+        transition: all 0.2s ease-in;
+    }
+   .type .type-container .fruits .fruits-slide .fruits-product article figure:hover .primery{
+        visibility:visible;
+        opacity:1;
+    }
+   .type .type-container .fruits .fruits-slide .fruits-product article figure:hover .first{
+        visibility:hidden;
+        opacity:0;
+        transition: all 0.2s ease-in;
+    }
+    .type .type-container .fruits .fruits-slide .fruits-product article {
+        display: grid;
+        grid-template-columns: 85px calc(100% - 85px);
+        justify-content: space-between;
+    }
+    .type .type-container .fruits .fruits-slide .fruits-product article .content {
+        padding-left: 10px;
+    }
+    .type .type-container .fruits .fruits-slide .fruits-product article .content h3  {
+        margin: 0;
+        line-height: 15px;
+    }
+    .type .type-container .fruits .fruits-slide .fruits-product article .content h3 a {
+        font-size: 15px;
+        font-weight: 400;
+        margin: 0;
+    }
+    .type .type-container .fruits .fruits-slide .fruits-product article .content p a {
+        font-size: 12px;
+        line-height: 12px;
+        margin: 10px 0;
+        display: block;
+    }
+    .type .type-container .fruits .fruits-slide .fruits-product article .content h4 {
+        font-size: 13px;
+        color: #FC8A35;
+        font-weight: 600;
+    }
+    .type .type-container .fruits .fruits-slide .fruits-product article .content h4 span {
+        margin-left: 5px;
+        color: #222;
+        font-weight: 400;
+        text-decoration: line-through;
+        font-size: 15px;
+    }
+    .type .type-container .fruits .fruits-slide .fruits-product article .content .icon {
+        visibility: hidden;
+    }
+    .type .type-container .fruits .fruits-slide .owl-dots {
+        display:none;
+    }
+    .type .type-container .fruits .fruits-slide .owl-nav {
+        position: absolute;
+        right: -20px;
+        top: -63px;
+        font-size: 3em;
+        font-weight: 300;
+        color: #222222;
+    }
+}
+@media screen and (min-width:1200px){
+    .type .type-container {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        max-width: 1130px;
+        margin: auto;
+    }
+    .type .type-container .fruits .fruits-slide .fruits-product article {
+        grid-template-columns: 120px calc(100% - 120px);
+    }
+}
