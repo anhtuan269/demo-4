@@ -214,8 +214,11 @@
     .header .midle-content .menu-bar {
         display:none;
     }
+    .header .midle-content {
+        align-items: center;
+    }
     .header .midle-content .left img {
-        width: 150px;
+        width: 118px;
         padding: 0 12px;
     }
     .header .midle-content .right {

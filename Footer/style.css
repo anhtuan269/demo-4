@@ -1,0 +1,165 @@
+@media screen and (min-width:320px){
+    .footer .footer-container .top-footer {
+        padding: 0 16px;
+    }
+    .footer .footer-container .logo {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .footer .footer-container .logo a {
+        display: inline-block;
+    }
+    .footer .footer-container .logo p {
+        font-size: 13px;
+        line-height: 23px;
+        margin-bottom: 6px;
+    }
+    .footer .footer-container .logo p span {
+        font-weight: 600;
+    }
+    .footer .footer-container .info a {
+        display: block;
+        font-size: 13px;
+        line-height: 25px;
+        font-weight: 400;
+    }
+    .footer .footer-container .info {
+        margin-bottom: 48px;
+        text-align: center;
+    }
+    .footer .footer-container .info h3 {
+        font-size: 17px;
+        line-height: 18px;
+        margin-bottom: 10px;
+        font-weight: 500;
+    }
+    .footer .footer-container .extra {
+            margin-bottom: 48px;
+            text-align: center;
+    }
+    .footer .footer-container .extra h3 {
+        font-size: 17px;
+        line-height: 18px;
+        margin-bottom: 10px;
+        font-weight: 500;
+    }
+    .footer .footer-container .sign-up {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .footer .footer-container .sign-up h3 {
+        font-size: 17px;
+        line-height: 18px;
+        margin-bottom: 10px;
+        font-weight: 500;
+    }
+    .footer .footer-container .sign-up p {
+        font-size: 13px;
+        line-height: 23px;
+        margin-bottom: 6px;
+    }
+    .footer .footer-container .sign-up .input {
+        position: relative;
+    }
+    .footer .footer-container .sign-up .input input {
+        border: 1px solid #aaa;
+        padding: 0 94px 0 20px;
+        height: 40px;
+        border-radius: 30px;
+        color: #222;
+    }
+    .footer .footer-container .sign-up .input button {
+        padding: 0 11px;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 400;
+        background-color: #FC8A35;
+        color: #FFF;
+        height: 40px;
+        border-radius: 0 30px 30px 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .footer .footer-container .bot-footer {
+        padding: 24px 0 25px;
+        background-color: #Fc8A35;
+    }
+    .footer .footer-container .bot-footer .left {
+        padding: 0 16px;
+        text-align: center;
+        font-size: 13px;
+        line-height: 22px;
+        color: #FFF;
+        margin-bottom: 20px;
+    }
+    .footer .footer-container .bot-footer .right {
+        display: flex;
+        padding: 0 20px;
+        justify-content: space-between;
+        width: 320px;
+        margin: auto;
+    }
+    .footer .footer-container .bot-footer .right a  img {
+        border-radius: 6px;
+    }
+
+}
+@media screen and (min-width: 768px){
+    .footer .footer-container .top-footer .logo {
+        text-align: left;
+    }
+    .footer .footer-container .top-footer .right {
+        display: grid;
+        grid-template-columns: 25% 25% 50%;
+    }
+    .footer .footer-container .top-footer .right .info {
+       text-align: left;
+    }
+    .footer .footer-container .top-footer .right .extra {
+        text-align: left;
+    }
+     .footer .footer-container .top-footer .right .sign-up {
+        text-align: left;
+        padding: 0 16px
+     }
+     .footer .footer-container .top-footer .right .sign-up p {
+        padding-right: 17px;
+        line-height: 18px;
+        margin-bottom: 22px;
+    }
+   
+}
+@media screen and (min-width: 1200px){
+    .footer .footer-container .top-footer {
+        max-width: 1130px;
+        margin: auto;
+    }
+    .footer .footer-container .bot-footer .bot-content {
+        max-width: 1130px;
+        margin: auto;
+    }
+    .footer .footer-container .top-footer {
+        display: grid;
+        grid-template-columns: 31% 67%;
+        justify-content: space-between;
+    }
+    .footer .footer-container .top-footer .right .sign-up {
+        padding: 0 ;
+     }
+     .footer .footer-container .top-footer .right .sign-up p {
+        padding-right: 25px;
+    }
+    .footer .footer-container .bot-footer .bot-content {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer .footer-container .bot-footer .bot-content .left {
+        line-height: 35px;
+        margin-bottom: 0;
+    }
+    .footer .footer-container .bot-footer .bot-content .right {
+        margin: 0;
+    }
+    
+}
