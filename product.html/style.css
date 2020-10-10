@@ -1,0 +1,48 @@
+.header .bot-content .left-menu .input-group .search button {
+    background: #40A944!important;
+}
+.header .bot-content .left-menu .menu-bar {
+    background-color: #40A944!important;
+}
+.footer .footer-container .sign-up .input button {
+    background-color: #40A944!important;   
+}
+.footer .footer-container .bot-footer {
+    padding: 24px 0 25px;
+    background-color: #40A944!important;
+}
+
+@media screen and (min-width: 320px){
+    .area .area-container {
+        background-image: url(../image/banner18.jpg);
+        background-size: cover;
+        align-items: center;
+        height: 105px;
+        background-position: 16%;
+    }
+    .area .area-container .row {
+        padding: 0 16px;
+    }
+    .area .area-container .row ul {
+        display: flex;
+        justify-content: center;
+        line-height: 111px;        
+    }
+    .area .area-container .row ul li {
+        display: block;
+        padding-right: 5px;
+        color: #222222;
+        font-weight: 300;
+        font-size: 14px;
+    }
+    
+}
+@media screen and (min-width: 768px) {
+    .area .area-container {
+        height: 200px;
+        background-position: 0;
+    }
+    .area .area-container .row ul {
+        line-height: 211px;
+    }
+}

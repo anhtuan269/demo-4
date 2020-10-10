@@ -1,0 +1,125 @@
+.detail
+    .detail-container 
+        .detail-top    
+            .detail-img
+                figure 
+                    a(href="#")
+                        img(src="../image/productbig4.jpg", alt="")
+            .detail-slide
+                .slide-img.owl-carousel.owl-theme
+                    figure
+                        a(href="#")
+                            img(src="../image/product6.jpg", alt="")
+                    figure
+                        a(href="#")
+                            img(src="../image/product7.jpg", alt="")
+                    figure
+                        a(href="#")
+                            img(src="../image/product1.jpg", alt="")
+                    figure
+                        a(href="#")
+                            img(src="../image/product15.jpg", alt="")
+        .detail-content 
+            .top
+                h2 
+                    a(href="#") Commodo Augue Nisi
+                .arrow
+                    i.fas.fa-angle-left
+                    i.fas.fa-angle-right
+            .mid
+                .vote
+                    i.far.fa-star
+                    i.far.fa-star
+                    i.far.fa-star
+                    i.far.fa-star
+                    i.far.fa-star
+                    a(href="#") ( Customer Review)
+                .price
+                    p
+                        | £70.00 
+                        span £80.00
+                .review
+                    p eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in
+                .option
+                    h3 Available Options
+                    .color
+                        h4 Color
+                        ul
+                            li 
+                                a.black(href="#")
+                            li 
+                                a.red(href="#")
+                            li 
+                                a.white(href="#")
+                            li 
+                                a.blue(href="#")
+
+                    .quantity
+                        .left
+                            h5 Quantity
+                            input(type="text" value="1")
+                            a.add(href="") Add To Cart
+                        a.wishlist(href="#") + Add to Wishlist
+                        a.cpompare(href="#") + Add to Compare
+                    .category
+                        h5 
+                            span Category :
+                            | Clothing
+                        .social
+                            ul 
+                                li 
+                                    a.face(href="#")
+                                        i.fab.fa-facebook-f
+                                        | Like
+                                li 
+                                    a.twit(href="#")
+                                        i.fab.fa-twitter
+                                        | Twet
+                                li 
+                                    a.pin(href="#")
+                                        i.fab.fa-pinterest-p
+                                        | Save
+                                li 
+                                    a.plus(href="#")
+                                        i.fab.fa-google-plus-g
+                                        | Share
+                                li 
+                                    a.link(href="#")
+                                        i.fab.fa-linkedin-in
+                                        | Linked
+    .detail-review
+        .detail-view
+            .title
+                ul 
+                    li 
+                        a(href="#") Description
+                    li.key 
+                        a(href="#") Specification
+                    li 
+                        a(href="#") Review(1)
+            .view
+                article
+                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor. Donec non est at libero vulputate rutrum. Morbi ornare lectus quis justo gravida semper. Nulla tellus mi, vulputate adipiscing cursus eu, suscipit id nulla.
+                    p.text Pellentesque aliquet, sem eget laoreet ultrices, ipsum metus feugiat sem, quis fermentum turpis eros eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in accumsan elit odio quis mi. Cras neque metus, consequat et blandit et, luctus a nunc. Etiam gravida vehicula tellus, in imperdiet ligula euismod eget.
+                    
+                
+script.
+    $(document).ready(function(){
+        $('.slide-img').owlCarousel({
+      nav: true,
+      loop: true,
+      responsive: {
+      1000: {
+      items: 4
+      },
+      768: {
+      items: 3
+      },
+      0: {
+      items: 3
+      }
+      }
+      })
+    })
+                                
+

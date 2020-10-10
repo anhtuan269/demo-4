@@ -1,0 +1,342 @@
+@media screen and (min-width: 320px){
+    .detail .detail-container {
+        margin-top: 60px;
+        padding: 0 16px;
+        margin-bottom: 70px;
+    }
+    .detail .detail-container .detail-top {
+        margin-bottom: 53px;
+    }
+    .detail .detail-container .detail-slide {
+        max-width: 95%;
+        margin-top: 20px!important;
+        margin: 0 auto;
+    }
+    .detail .detail-container .detail-slide .slide-img figure {
+        width: 79px;
+        border: 1px solid #ddd;
+    }
+    .detail .detail-container .detail-slide .slide-img .owl-dots {
+        display: none;
+    }
+    .detail .detail-container .detail-content h2  a{
+        margin-bottom: 17px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 20px;
+        display: block;
+    }
+    .detail .detail-container .detail-content .top .arrow {
+        display:none;
+    }
+    .detail .detail-container .detail-content .mid .vote {
+        display: flex;
+        align-items: center;
+        margin-bottom: 12px;
+    } 
+    .detail .detail-container .detail-content .mid .vote i  {
+       color:#FEB954;
+       padding-right: 5px;
+    }
+    .detail .detail-container .detail-content .mid .vote a  {
+        color: #5a5a5a;
+        margin-left: 10px;
+    }
+    .detail .detail-container .detail-content .mid .price  {
+        margin: 14px 0 12px;
+    }
+     .detail .detail-container .detail-content .mid .price p {
+        font-size: 24px;
+        color: #40A944;
+        font-weight: 500;
+     }
+     .detail .detail-container .detail-content .mid .price p  span {
+        font-size: 20px;
+        color: #222;
+        text-decoration: line-through;
+    }
+     .detail .detail-container .detail-content .mid .review {
+        margin-bottom: 15px;
+        padding-bottom: 18px;
+        border-bottom: 1px solid #ddd;
+     }
+     .detail .detail-container .detail-content .mid .review  p {
+        font-size: 14px;
+        line-height: 26px;
+     }
+     .detail .detail-container .detail-content .mid .option  h3{
+        font-weight: 500;
+        text-transform: capitalize;
+        font-size: 18px;
+        margin-bottom: 0;
+        margin-right: 40px;
+     }
+     .detail .detail-container .detail-content .mid .option .color{
+         margin-bottom: 18px;
+     }
+     .detail .detail-container .detail-content .mid .option .color h4 {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 30px;
+     } 
+    .detail .detail-container .detail-content .mid .option .color ul li {
+        padding: 2px;
+        border: 1px solid #ddd;
+        margin-right: 5px;
+    }
+    .detail .detail-container .detail-content .mid .option .color ul {
+        display: flex;
+    }
+     .detail .detail-container .detail-content .mid .option .color  a {
+        width: 30px;
+        height: 30px;
+        display: block;
+     }
+     .detail .detail-container .detail-content .mid .option .color  .black {
+       background-color: #5a5a5a;
+       
+     }
+     .detail .detail-container .detail-content .mid .option .color  .red {
+       background-color: #BEBEBE;
+       
+     }
+     .detail .detail-container .detail-content .mid .option .color  .white {
+       background-color: #FE0000
+       
+     }
+     .detail .detail-container .detail-content .mid .option .color  .blue {
+       background-color: #FFFF01;
+     }
+     .detail .detail-container .detail-content .mid .option .quantity  {
+         margin-bottom: 14px;
+     }
+     .detail .detail-container .detail-content .mid .option .quantity .left {
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+     }
+     .detail .detail-container .detail-content .mid .option .quantity a {
+         display: block;
+         font-size:14px;
+         line-height:28px;
+     }
+     .detail .detail-container .detail-content .mid .option .quantity .left h5{
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+    .detail .detail-container .detail-content .mid .option .quantity .left input {
+        width: 65px;
+        margin-left: 10px;
+        border: 1px solid #ebebeb;
+        height: 42px;
+        padding: 0 12px;
+        border-radius: 5px;
+    }
+    .detail .detail-container .detail-content .mid .option .quantity .left .add {
+        margin-left: 10px;
+        height: 42px;
+        line-height: 42px;
+        font-size: 16px;
+        padding: 0 22px;
+        background-color: #40A944;
+        display: inline-block;
+        color: #FFF;
+        font-weight: 500;
+        min-width: inherit;
+        border-radius: 3px;
+    }
+    .detail .detail-container .detail-content .mid .option .category h5 {
+        margin-bottom: 20px;
+    }
+    .detail .detail-container .detail-content .mid .option .category h5 span {
+        font-weight:500;
+        color:#000;
+        margin-right: 15px;
+    }
+    .detail .detail-container .detail-content .mid .option .category .social ul {
+        display: flex;
+    }
+    .detail .detail-container .detail-content .mid .option .category .social ul li {
+        padding-right:5px;
+    }
+    .detail .detail-container .detail-content .mid .option .category .social ul li a {
+        display: inline-block;
+        background-color: #3B5999;
+        color: #FFF;
+        padding: 0 7px;
+        border-radius: 3px;
+        font-size: 0.7em;
+        line-height: 24px;
+    }
+    .detail .detail-container .detail-content .mid .option .category .social ul li a i{
+        font-size: 0.8em;
+        padding-right: 5px;
+    }
+    .detail .detail-container .detail-content .mid .option .category .social ul li a {
+        display: inline-block;
+        background-color: #3B5999;
+        color: #FFF;
+        padding: 0 7px;
+        border-radius: 3px;
+        font-size: 0.7em;
+        line-height: 24px;
+    }
+    .detail .detail-container .detail-content .mid .option .category .social ul li a i{
+        font-size: 0.8em;
+        padding-right: 5px;
+    }
+    .detail .detail-container .detail-content .mid .option .category .social ul li a {
+        display: inline-block;
+        background-color: #3B5999;
+        color: #FFF;
+        padding: 0 7px;
+        border-radius: 3px;
+        font-size: 0.7em;
+        line-height: 24px;
+    }
+    .detail .detail-container .detail-content .mid .option .category .social ul li a i{
+        font-size: 0.8em;
+        padding-right: 5px;
+    }
+    .detail .detail-container .detail-content .mid .option .category .social ul li a {
+        display: inline-block;
+        background-color: #3B5999;
+        color: #FFF;
+        padding: 0 7px;
+        border-radius: 3px;
+        font-size: 0.7em;
+        line-height: 24px;
+    }
+    .detail .detail-container .detail-content .mid .option .category .social ul li a i{
+        font-size: 0.8em;
+        padding-right: 5px;
+    }
+     .detail .detail-container .detail-content .mid .option .category .social ul li a {
+        display: inline-block;
+        background-color: #3B5999;
+        color: #FFF;
+        padding: 0 7px;
+        border-radius: 3px;
+        font-size: 0.7em;
+        line-height: 24px;
+    }
+    .detail .detail-container .detail-content .mid .option .category .social ul li a i{
+        font-size: 0.8em;
+        padding-right: 5px;
+    }
+    .detail .detail-container .detail-content .mid .option .category .social ul li .face {
+        background-color: #3B5999;
+    }
+    .detail .detail-container .detail-content .mid .option .category .social ul li .twit {
+        background-color: #1DA1F2;
+    }
+    .detail .detail-container .detail-content .mid .option .category .social ul li .pin {
+        background-color: #CB2028;
+    }
+    .detail .detail-container .detail-content .mid .option .category .social ul li .plus {
+        background-color: #FF6D4C;
+    }
+    .detail .detail-container .detail-content .mid .option .category .social ul li .link {
+        background-color: #010103;
+    }
+    .detail .detail-review {
+        padding: 0 16px;
+        margin-bottom: 57px;;
+    }
+    .detail .detail-review .detail-view {
+        padding: 20px 20px 27px;
+        border: 1px solid #ddd
+    }
+    .detail .detail-review .detail-view .title {
+        padding-bottom:15px;
+        margin-bottom: 29px;
+        border-bottom: 1px solid #ddd;
+    }
+    .detail .detail-review .detail-view ul li {
+        margin-bottom: 5px;
+    }
+    .detail .detail-review .detail-view ul .key {
+        float: left;
+    }
+    .detail .detail-review .detail-view ul li a {
+        display: block;
+        font-size: 17px;
+        margin-right: 25px;
+        font-weight: 500;
+        line-height: 26px;
+        color: #333;
+    }
+    .detail .detail-review .detail-view .view {
+
+    }
+    .detail .detail-review .detail-view .view article p {
+        line-height: 28px;
+        margin-bottom: 1rem;
+    }
+    .detail .detail-review .detail-view .view article .text {
+        
+    }
+
+
+}
+@media screen and (min-width: 480px){
+    .detail .detail-container .detail-slide .slide-img figure {
+        width: 130px;
+    }
+    .detail .detail-review .detail-view .title ul {
+        display: flex;
+    }
+} 
+@media screen and (min-width: 768px){
+    .detail .detail-container {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        justify-content: space-between;
+    }
+    .detail .detail-container .detail-slide .slide-img figure {
+        width: 94px;
+    }
+    .detail .detail-container .detail-content .top {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 17px;
+        align-items: center;
+    }
+    .detail .detail-container .detail-content .top h2 a {
+        margin-bottom: 0;
+    }
+    .detail .detail-container .detail-content .top .arrow {
+        display: block;
+    }
+    .detail .detail-container .detail-content .arrow .fa-angle-left {
+        padding: 7px;
+        background-color: #40A944;
+        color: #FFF;
+        margin-right: 8px;
+        border-radius: 3px;
+    }
+    .detail .detail-container .detail-content .arrow .fa-angle-right {
+        padding: 7px;
+        background-color: #40A944;
+        color: #FFF;
+        border-radius: 3px;
+    }
+}
+@media screen and (min-width: 1200px){
+    .detail .detail-container .detail-slide .slide-img figure {
+        width: 98px;
+    }
+    .detail .detail-container .detail-slide {
+        max-width: 80%;
+    }
+    .detail .detail-container {
+        max-width: 1130px;
+        margin:70px auto;
+    }
+    .detail .detail-review {
+        margin-bottom: 60px!important;
+        max-width: 1130px;
+        margin: auto;
+    }
+}
