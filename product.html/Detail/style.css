@@ -267,17 +267,10 @@
         line-height: 26px;
         color: #333;
     }
-    .detail .detail-review .detail-view .view {
-
-    }
     .detail .detail-review .detail-view .view article p {
         line-height: 28px;
         margin-bottom: 1rem;
     }
-    .detail .detail-review .detail-view .view article .text {
-        
-    }
-
 
 }
 @media screen and (min-width: 480px){
@@ -326,6 +319,9 @@
 @media screen and (min-width: 1200px){
     .detail .detail-container .detail-slide .slide-img figure {
         width: 98px;
+    }
+    .detail .detail-container .detail-top {
+        margin-bottom: 0;
     }
     .detail .detail-container .detail-slide {
         max-width: 80%;
