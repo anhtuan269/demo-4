@@ -1,0 +1,29 @@
+@media screen and (min-width: 320px){
+    .footer-bar {
+        padding: 0 16px;
+    }
+    .footer-bar .bar {
+        padding: 15px 10px 15px;
+        border:1px solid #ddd;  
+        margin-bottom:58px;
+        text-align: center;
+    }
+    .footer-bar .bar .bar-content a {
+        padding: 5px 10px;
+        border: 1px solid #ddd;
+        background-color: #ddd;
+        margin-right: 5px;
+        border-radius: 3px;
+        display: inline-block;
+    }
+    .footer-bar .bar .bar-content .page1 {
+        background-color: #40A944;
+        color:#FFF;
+    }
+}
+@media screen and (min-width: 768px){
+    .footer-bar .bar {
+        padding: 8px 10px;
+        margin-bottom: 65px;
+    }
+}
