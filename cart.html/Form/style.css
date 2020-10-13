@@ -1,0 +1,136 @@
+@media screen and (min-width: 320px){
+    .form .form-container {
+        padding: 0 16px;
+        margin-bottom: 60px;
+    }
+    .form .form-container .counpon-container {
+        margin-bottom: 70px;
+    }
+    .form .form-container .counpon-container .counpon  {
+        border: 1px solid #ededed;
+    }
+    .form .form-container .counpon-container .counpon h3 {
+        color: #FFF;
+        background-color: #222;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 5px 15px;
+        margin-bottom: 8px;
+    }
+    .form .form-container .counpon-container .counpon .content {
+        padding:10px 20px 25px;
+    }
+    .form .form-container .counpon-container .counpon .content p {
+        font-size: 14px;
+        margin-bottom:20px;
+    }
+    .form .form-container .counpon-container .counpon .content .input-group input {
+        border: 1px solid #ededed;
+        height: 42px;
+        background: none;
+        padding: 0 20px;
+        margin-right: 20px;
+        font-size: 12px;
+        color: #222222;
+        margin-bottom: 24px;
+        width: 100%;
+    }
+    .form .form-container .counpon-container .counpon .content .input-group button {
+        background: #222222;
+        border: 0;
+        color: #ffffff;
+        display: inline-block;
+        font-size: 12px;
+        font-weight: 600;
+        height: 38px;
+        line-height: 20px;
+        padding: 10px 15px;
+        cursor: pointer;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+        border-radius: 3px;
+    }
+    .form .form-container .counpon-container .counpon .content .input-group button:hover {
+        background-color: #40A944;
+    }
+    .form .form-container .cart {
+        border: 1px solid #ededed;
+    }
+    .form .form-container .cart h3 {
+        color: #FFF;
+        background-color: #222;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 5px 15px;
+        margin-bottom: 8px;
+    }
+    .form .form-container .cart .cart-total {
+        padding:10px 20px 25px;
+    }
+    .form .form-container .cart .cart-total .sub{
+        display: flex;
+        justify-content: space-between;
+    }
+    .form .form-container .cart .cart-total .shipping{
+        display: flex;
+        justify-content: space-between;
+    }
+    .form .form-container .cart .cart-total .total{
+        display: flex;
+        justify-content: space-between;
+    }
+    .form .form-container .cart .cart-total p {
+        font-size:14px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .form .form-container .cart .cart-total .amount {
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    .form .form-container .cart .cart-total .caculate {
+        display: block;
+        font-weight: 500;
+        text-align: right;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #ededed;
+    }
+    .form .form-container .cart .cart-total .shipping .amount span {
+        margin-right:30px;
+    }
+    .form .form-container .cart .cart-total button {
+        background: #40A944;
+        padding: 3px 14px;
+        border: 0;
+        color: #ffffff;
+        font-size: 15px;
+        line-height: 30px;
+        font-weight: 500;
+        display: inline-block;
+        margin-bottom: 0;
+        transition: 0.3s;
+    }
+    .form .form-container .cart .cart-total button:hover {
+        background-color: #222;
+    }
+    .form .form-container .cart .cart-total .button {
+        text-align: right;
+    } 
+}
+@media screen and (min-width: 768px){
+    .form .form-container {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        justify-content: space-between;
+    }
+}
+@media screen and (min-width: 1200px){
+    .form .form-container {
+        grid-template-columns: 48% 50%;
+        max-width: 1130px;
+        margin: auto;
+        margin-bottom: 60px!important;
+    }
+}

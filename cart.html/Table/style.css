@@ -134,6 +134,10 @@
     .table .table-container .table-content .submit-cart {
         text-align: right;
     }
+    .table .table-container .table-content .submit-cart button:hover {
+        background-color: #40A944;
+        transition: all 0.3s ease-in-out;
+    }
 }
 @media screen and (min-width:1200px){
     .table {
