@@ -1,0 +1,118 @@
+.file
+    .file-container
+        .file-content
+            .file1.mb-4
+                h3
+                    i.far.fa-file
+                    | Returning Customner?
+                    a(href="#") Click here to login
+            .file1
+                h3
+                    i.far.fa-file
+                    | Returning Customner?
+                    a(href="#") Click here to enter your code
+.checkout
+    .checkout-container
+        .bill
+            h3.uppercase billing details
+            .content
+                .name
+                    .first
+                        h3 First Name
+                            span *
+                        input(type="text")
+                    .last
+                        h3 Last Name
+                            span *
+                        input(type="text")
+                .company
+                    h3 Company Name
+                    input(type="text")
+                .country
+                    h3 Country
+                        span *
+                    select(name="select")
+                        option.option.selected(value-="1") Bangladesh
+                        option(value="2") Việt Nam 
+                        option(value="2") China
+                        option(value="2") Japan 
+                        option(value="2") America 
+                        option(value="2") Span 
+                .address
+                    h3 Street Address
+                        span *
+                    input.house(type="text" placeholder=" House number and Street name")
+                    input.suit(type="text" placeholder="Apartment,suite, unit etc. (optional)")
+                .town
+                    h3 Town / City
+                        span *
+                    input(type="text")
+                .city
+                    h3 Stage / Country
+                        span *
+                    input(type="text")
+                .contact
+                    .phone
+                        h3 Phone
+                            span *
+                        input(type="text")
+                    .email
+                        h3 Email
+                            span *
+                        input(type="text")
+                .acount
+                    input#acount(type="check box")
+                    lable   Create an Acount
+                .ship
+                    input#shipping(type="check box")
+                    lable   Ship To A Different Address
+                .order
+                    h5 Order Note
+                    textarea#order(name="order", cols="30", rows="10" placeholder="Notes about your order, e.g. special note for dilivery")
+        .cart
+            .cart-container
+                h2.uppercase your order
+                table
+                    thead
+                        tr
+                            th Product
+                            th total
+                    tbody
+                        tr 
+                            td Handbag Fringila
+                                span x 2
+                            td $165.00
+                        tr 
+                            td Handbag Fringila
+                                span x 2
+                            td $165.00
+                        tr 
+                            td Handbag Fringila
+                                span x 2
+                            td $165.00
+                        tr 
+                            td Handbag Fringila
+                                span x 2
+                            td $165.00
+                        tr 
+                            td Handbag Fringila
+                                span x 2
+                            td $165.00
+                        tr 
+                            td Handbag Fringila
+                                span x2
+                            td $165.00
+                        tr 
+                            td Handbag Fringila
+                                span x2
+                            td $165.00
+                .acount
+                    input(type="check box")
+                    lable   Create an Acount
+                .pay
+                    input(type="check box")
+                    lable   Paypal
+                    img(src="../image/payel.png", alt="")
+                .button
+                    button Proceed To Paypal
+
