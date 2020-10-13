@@ -1,0 +1,143 @@
+@media screen and (min-width:320px){
+    .table {
+        width: 100%;
+    }
+    .table .table-container {
+        padding: 0 16px;
+        margin-top: 60px;
+    }
+    .table .table-container .table-content table {
+        width:100%;
+    }
+    .table .table-container .table-content {
+        border: 1px solid #ededed;
+        margin-top: 2px;
+        margin-bottom: 60px;
+    }
+    .table .table-container .table-content table tbody tr td {
+        display: block;
+        width: 100%!important;
+        margin: 0 auto;
+        border: 0;
+        text-align: center;
+        padding: 15px;
+    }
+    .table .table-container .table-content table tbody tr {
+        padding: 15px 0;
+        display: block;
+    }
+    .table .table-container .table-content table tbody tr td a  {
+        font-size: 20px;
+        display: block;
+    }
+    .table .table-container .table-content table tbody tr .product-thumb  {
+        padding: 0 30px;
+        width: 100%!important;
+    }
+    .table .table-container .table-content table tbody tr .product-thumb img {
+        width: 100%;
+    }
+    .table .table-container .table-content table tbody tr .product-name a {
+        font-size: 14px;
+    }
+    .table .table-container .table-content table tbody tr .product-price {
+        font-size:16px;
+        font-weight: 500;
+    }
+    .table .table-container .table-content table tbody tr .product-quantity {
+        align-items: center; 
+        justify-content: center;
+
+    }
+    .table .table-container .table-content table tbody tr .product-quantity .lable {
+        font-weight: 500;
+        margin-right: 7px;
+    }
+    .table .table-container .table-content table tbody tr .product-quantity input {
+        width: 60px;
+        height: 40px;
+        padding: 0 5px 0 10px;
+        background: none;
+        border: 1px solid #ededed;
+    }
+    .table .table-container .table-content table tbody tr .product-total {
+        font-size:14px;
+    }
+    .table .table-container .table-content .submit-cart {
+        text-align: center;
+        padding:12px
+    }
+    .table .table-container .table-content .submit-cart button {
+        font-size: 12px;
+        padding: 12px 15px;
+        background-color: #222222;
+        color: #FFF;
+        font-weight: 500;
+        height: 38px;
+        display: inline-block;
+        line-height: 17px;
+        border-radius: 3px;
+    }
+}
+@media screen and (max-width:767px){
+    .table .table-container .table-content table thead {
+        display: none;
+    }
+    .table .table-container .table-content table tbody tr {
+        border-bottom: 1px solid #ededed;
+    }
+}
+@media screen and (min-width:480px){
+    .table .table-container .table-content table tbody tr .product-thumb  {
+        padding: 0 30px;
+        width: 320px!important;
+    }
+}
+@media screen and (min-width:768px){
+    .table .table-container .table-content table thead th {
+        border-bottom: 3px solid #40A944;
+        border-right: 1px solid #ededed;
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: capitalize;
+        padding: 10px;
+        text-align: center;
+    }
+    .table .table-container .table-content table tbody tr {
+        display: table-row;
+    }
+    .table .table-container .table-content table tbody tr td {
+        display: table-cell;
+        border-bottom: 1px solid #ededed;
+        border-right: 1px solid #ededed;
+        padding: 10px;
+    }
+    .table .table-container .table-content table tbody tr .product-remove{
+        width: 100px!important;
+    }
+    .table .table-container .table-content table tbody tr .product-thumb{
+        width: 170px!important;
+        padding: 15px;
+    }
+    .table .table-container .table-content table tbody tr .product-name{
+        width: 230px!important;
+    }
+    .table .table-container .table-content table tbody tr .product-price{
+        width: 140px!important;
+    }
+    .table .table-container .table-content table tbody tr .product-quantity{
+        width: 218px!important;
+    }
+    .table .table-container .table-content table tbody tr .product-total{
+        width: 135px!important;
+    }
+    .table .table-container .table-content .submit-cart {
+        text-align: right;
+    }
+}
+@media screen and (min-width:1200px){
+    .table {
+        max-width: 1130px;
+        margin: auto;
+    }
+}

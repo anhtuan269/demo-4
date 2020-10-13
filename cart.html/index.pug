@@ -1,13 +1,9 @@
-doctype html
 head
   meta(charset='UTF-8')
   meta(name='viewport' content='width=device-width, initial-scale=1.0')
   link(rel='stylesheet' href='./style.css' type='text/css')
-  link(rel='stylesheet' href='../shop.html/style.css' type='text/css')
-  link(rel='stylesheet' href='../shop.html/Shop-product/style.css' type='text/css')
-  link(rel='stylesheet' href='../shop.html/Bar/style.css' type='text/css')
-  link(rel='stylesheet' href='../shop.html/Footer-bar/style.css' type='text/css')
   link(rel='stylesheet' href='../cart.html/style.css' type='text/css')
+  link(rel='stylesheet' href='../cart.html/Table/style.css' type='text/css')
   link(rel='stylesheet' href='../Header/style.css' type='text/css')
   link(rel='stylesheet' href='../Footer/style.css' type='text/css')
   link(rel='stylesheet' href='./owlcarousel/owl.carousel.min.js')
@@ -27,31 +23,13 @@ body
     .area
         .area-container
             .title
-                h2 SHOP
+                h2 Cart
             .row
-                ul
+                ul          
                     li
                         a(href="#") Home
                     li /
                     li 
                         a(href="#") Shop
-    include ./Bar/index.pug
-    include ./Shop-product/index.pug
-    include ./Footer-bar/index.pug
+    include ./Table/index.pug
     include ../Footer/index.pug
-script.
-    $('#grid-3').click(function(e){
-        $('.grid-3').removeClass("visibility")
-        $('.grid-4').addClass("visibility")
-        $('.list-product').addClass("visibility")
-    })
-    $('#grid-4').click(function(e){
-        $('.grid-4').removeClass("visibility")
-        $('.grid-3').addClass("visibility")
-        $('.list-product').addClass("visibility")
-    })
-    $('#list').click(function(e){
-        $('.grid-3').addClass("visibility")
-        $('.grid-4').addClass("visibility")
-        $('.list-product').removeClass("visibility")
-    })
