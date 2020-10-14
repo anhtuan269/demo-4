@@ -6,7 +6,7 @@
                     i.far.fa-file
                     | Returning Customner?
                     a(href="#") Click here to login
-            .file1
+            .file1.mb-4
                 h3
                     i.far.fa-file
                     | Returning Customner?
@@ -14,21 +14,21 @@
 .checkout
     .checkout-container
         .bill
-            h3.uppercase billing details
+            h2.uppercase billing details
             .content
                 .name
-                    .first
+                    .first.mb-6
                         h3 First Name
                             span *
                         input(type="text")
-                    .last
+                    .last.mb-6
                         h3 Last Name
                             span *
                         input(type="text")
-                .company
+                .company.mb-6
                     h3 Company Name
                     input(type="text")
-                .country
+                .country.mb-6
                     h3 Country
                         span *
                     select(name="select")
@@ -38,81 +38,87 @@
                         option(value="2") Japan 
                         option(value="2") America 
                         option(value="2") Span 
-                .address
+                .address.mb-6
                     h3 Street Address
                         span *
-                    input.house(type="text" placeholder=" House number and Street name")
+                    input.mb-6.house(type="text" placeholder=" House number and Street name")
                     input.suit(type="text" placeholder="Apartment,suite, unit etc. (optional)")
-                .town
+                .town.mb-6
                     h3 Town / City
                         span *
                     input(type="text")
-                .city
+                .city.mb-6
                     h3 Stage / Country
                         span *
                     input(type="text")
                 .contact
-                    .phone
+                    .phone.mb-6
                         h3 Phone
                             span *
                         input(type="text")
-                    .email
-                        h3 Email
+                    .email.mb-6
+                        h3 Email Adreess
                             span *
                         input(type="text")
-                .acount
-                    input#acount(type="check box")
-                    lable   Create an Acount
-                .ship
-                    input#shipping(type="check box")
-                    lable   Ship To A Different Address
-                .order
-                    h5 Order Note
+                .acount.mb-6
+                    input.check#acount(type="checkbox")
+                    lable.create(for="acount")   Create an Acount
+                .ship.mb-6
+                    input.check#shipping(type="checkbox")
+                    lable.shipping(for="shipping")  Ship To A Different Address?
+                .order 
+                    h5.mb-2 Order Note
                     textarea#order(name="order", cols="30", rows="10" placeholder="Notes about your order, e.g. special note for dilivery")
         .cart
-            .cart-container
+            .cart-container.mb-8
                 h2.uppercase your order
-                table
-                    thead
-                        tr
-                            th Product
-                            th total
-                    tbody
-                        tr 
-                            td Handbag Fringila
-                                span x 2
-                            td $165.00
-                        tr 
-                            td Handbag Fringila
-                                span x 2
-                            td $165.00
-                        tr 
-                            td Handbag Fringila
-                                span x 2
-                            td $165.00
-                        tr 
-                            td Handbag Fringila
-                                span x 2
-                            td $165.00
-                        tr 
-                            td Handbag Fringila
-                                span x 2
-                            td $165.00
-                        tr 
-                            td Handbag Fringila
-                                span x2
-                            td $165.00
-                        tr 
-                            td Handbag Fringila
-                                span x2
-                            td $165.00
+                .table
+                    table
+                        thead
+                            tr
+                                th Product
+                                th total
+                        tbody
+                            tr 
+                                td.top Handbag Fringila
+                                    strong x 2
+                                td $165.00
+                            tr 
+                                td Handbag Fringila
+                                    strong x 2
+                                td $165.00
+                            tr 
+                                td Handbag Fringila
+                                    strong x 2
+                                td $165.00
+                            tr 
+                                td Handbag Fringila
+                                    strong x 2
+                                td $165.00
+                        tfoot
+                            tr 
+                                th Cart Subtotal
+                                
+                                td $215.00
+                            tr 
+                                th Shipping
+                                
+                                td 
+                                    strong $5.00
+                            tr 
+                                th Order-total
+                                
+                                td 
+                                    strong $210.00
+            .payment-method
                 .acount
-                    input(type="check box")
-                    lable   Create an Acount
+                    input#box(type="radio")
+                    lable.fake(for="box")   Create an Acount
                 .pay
-                    input(type="check box")
-                    lable   Paypal
-                    img(src="../image/payel.png", alt="")
+                    input#pay(type="radio")
+                    lable.fake(for="pay")   
+                        |Paypal
+                        img(src="../image/papyel.png", alt="")
                 .button
                     button Proceed To Paypal
 

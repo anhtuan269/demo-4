@@ -18,10 +18,222 @@
         margin-left: 5px;
         color:#40A944;
     }
+    .checkout .checkout-container {
+        padding: 0 16px;
+    }
+    .checkout .checkout-container .bill h2 {
+        padding: 5px 10px;
+        margin-bottom: 8px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+        background-color:#222;
+        line-height: 30px;
+    }
+    .checkout .checkout-container .bill .content h3 {
+        font-weight: 500;
+    }
+    .checkout .checkout-container .bill .content h3  span {
+        color: #40A944;
+        margin-left:3px;
+    }
+    .checkout .checkout-container .bill .content input {
+        border: 1px solid #ededed;
+        background: none;
+        height: 40px;
+        width: 100%;
+        padding: 0 20px;
+        color: #222222;
+    }
+    .checkout .checkout-container .bill .content .country select {
+        width: 100%;
+        height: 40px;
+        background: none;
+        border: 1px solid #ededed;
+        text-align: center;
+        padding: 0 93px;
+        margin: auto;
+    }
+    .checkout .checkout-container .bill .content .order h5{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 13px;
+    }
+    .checkout .checkout-container .bill .content .order textarea {
+        border: 1px solid #e5e5e5;
+        border-radius: 0;
+        height: 45px;
+        max-width: 100%;
+        padding: 0 30px 0 20px;
+        background: none;
+        font-size: 13px;
+        resize: none;
+        line-height: 45px;
+        width: 100%;
+        color: #222222;
+    }
+    .checkout .checkout-container .bill .content .check{
+        width: 15px;
+        height: 15px;
+        position: relative;
+        top: 2px;
+        margin-right: 10px;
+    }
+    .checkout .checkout-container .bill .content .acount .create {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .checkout .checkout-container .bill .content .ship .shipping {
+        font-size: 13px;
+        line-height:25px;
+        padding: 3px 10px;
+        border-radius:5px;
+        background-color:#222;
+        color:#FFF;
+        font-weight: 600;
+        cursor: pointer;
+        display: inline-block;
+    }
+    .checkout {
+        margin-bottom: 67px;
+    }
+    .checkout .checkout-container .bill .content .order {
+        margin-bottom: 58px;
+    }
+    .checkout .checkout-container .cart .cart-container h2 {
+        padding: 5px 10px;
+        margin-bottom: 8px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+        background-color:#222;
+        line-height: 30px;
+    }
+    .checkout .checkout-container .cart  .cart-container {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    .checkout .checkout-container .cart  .cart-container .table {
+        
+        width: 100%;
+    }
+    .checkout .checkout-container .cart  .cart-container .table table {
+        width:100%;
+    }
+    .checkout .checkout-container .cart .cart-container table thead {
+        background-color: #ededed;
+        
+    }
+    .checkout .checkout-container .cart .cart-container table thead tr th {
+        min-width: 50%;
+        text-align: center;
+        padding: 15px 0;
+        border-bottom: 1px solid #ddd;
+        font-size: 14px;
+    }
+    .checkout .checkout-container .cart .cart-container table tbody tr td {
+        max-width: none !important;
+        width: 100%;
+        border-right: 1px solid #ededed;
+        font-weight: 500;
+        font-size: 14px;
+        text-align: center;
+        min-width: 150px;
+        padding: 15px 0;
+        border-bottom: 1px solid #ededed;
+    }
+    .checkout .checkout-container .cart .cart-container table tbody tr td strong {
+        padding: 0 3px ;
+    }
+    .checkout .checkout-container .cart .cart-container table tbody tr .top {
+        padding-right: 5px;
+    }
+    .checkout .checkout-container .cart .cart-container table tfoot tr th {
+        min-width: 50%;
+        text-align: center;
+        padding: 15px 0;
+        border-bottom: 1px solid #ddd;
+        font-size: 14px
+    }
+    .checkout .checkout-container .cart .cart-container table tfoot tr td {
+        min-width: 50%;
+        text-align: center;
+        padding: 15px 0;
+        border-bottom: 1px solid #ddd;
+        font-size:14px;
+    }
+    .checkout .checkout-container .cart  .button button {
+        line-height: 30px;
+        padding: 5px 10px;
+        text-transform: capitalize;
+        color: #ffffff;
+        background: #40A944;
+        font-weight: 500;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+        margin-bottom: 0;
+        border-radius: 5px;
+    }
+    .checkout .checkout-container .cart  input {
+        margin-right: 10px;
+    }
+    .checkout .checkout-container .cart  .fake {
+        font-weight: 500;
+    }
+    .checkout .checkout-container .cart  .pay {
+        display: flex;
+        align-items:center;
+        box-sizing: border-box;
+    }
+    .checkout .checkout-container .cart  .pay .fake {
+        display: flex;
+        align-items:center;
+    }
+    .checkout .checkout-container .cart  .pay .fake img {
+        width:160px;
+        margin-left: 15px;
+    }
+
+}
+@media screen and (min-width: 480px){
+    .checkout .checkout-container .bill .content .country select {
+        padding: 0 165px;
+    }
+}
+@media screen and (min-width:768px){
+    .checkout .checkout-container {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        justify-content: space-between;
+    }
+    .checkout .checkout-container .bill .content .country select {
+        padding: 0 15px;
+    }
+    .checkout .checkout-container .cart .cart-container table tfoot tr td {
+        padding:  20px 0;
+    }
+    .checkout .checkout-container .cart .cart-container table tbody tr td{
+        padding: 20px 0;
+    }
 }
 @media screen and (min-width: 1200px){
     .file {
         max-width: 1130px;
         margin: auto;
+    }
+    .checkout .checkout-container{
+        max-width:1130px;
+        margin:auto;
+        grid-template-columns: 49% 49%;
+    }
+    .checkout .checkout-container .content .name {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        justify-content: space-between;
+    }
+    .checkout .checkout-container .content .contact {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        justify-content: space-between;
     }
 }
