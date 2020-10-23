@@ -94,22 +94,91 @@
                     i.fas.fa-angle-down
             .main-menu
                 ul
-                    li  
+                    li.hasubmenu  
                         a(href="#")
                             | Home
                             i.fas.fa-angle-down
-                    li  
+                        ul.submenu
+                            li
+                                a(href="#") Home Shop 1
+                            li
+                                a(href="#") Home Shop 2
+                            li
+                                a(href="index.pug") Home Shop 3
+                            li
+                                a(href="#") Home Shop 4
+                            li
+                                a(href="#") Home Shop 5
+                    li.hasubmenu  
                         a(href="product.html")
                             | Shop
                             i.fas.fa-angle-down
-                    li  
+                        ul.submenu
+                            li.menusub  
+                                a(href="#") Shop Layouts
+                                ul.sub
+                                    li
+                                        a(href="product.html") Full Width 
+                                    li
+                                        a(href="#") Full Width List
+                                    li
+                                        a(href="#") Right Sidebar
+                                    li
+                                        a(href="#") Right Sidebar List
+                                    li
+                                        a(href="#") List View
+                            li.menusub  
+                                a(href="#") Other Page
+                                ul.sub
+                                    li
+                                        a(href="cart.html") Cart 
+                                    li
+                                        a(href="#") WishList
+                                    li
+                                        a(href="checkout.html") Checkout
+                                    li
+                                        a(href="#") My Account
+                                    li
+                                        a(href="#") Error 404
+                            limenusub  
+                                a(href="#") Product Type
+                                ul.sub
+                                    li
+                                        a(href="shop.html") Product Detail
+                                    li
+                                        a(href="#") Product Sidebar
+                                    li
+                                        a(href="#") Product Grouped
+                                    li
+                                        a(href="#") Product Variable
+                    li.hasubmenu
                         a(href="shop.html")
                             | Blogs
                             i.fas.fa-angle-down
-                    li  
+                        ul.submenu
+                            li 
+                                a(href="#") Blogs Detail
+                            li 
+                                a(href="#") Blogs Full Width
+                            li 
+                                a(href="#") Blogs Sidebar
+                    li.hasubmenu  
                         a(href="checkout.html")
                             | Page
                             i.fas.fa-angle-down
+                        ul.submenu
+                            li 
+                                a(href="#") About Us
+                            li 
+                                a(href="#") Services
+                            li 
+                                a(href="#") Frequently Question
+                            li 
+                                a(href="#") Contact
+                            li 
+                                a(href="#") Login
+                            li 
+                                a(href="#") Error 404
                     li  
                         a(href="#")
                             | Contact Us
